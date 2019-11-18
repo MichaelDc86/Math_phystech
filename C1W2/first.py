@@ -30,8 +30,6 @@ def my_func():
     matrix = np.array(res_freq_list)
     pprint.pprint(matrix)
     print(matrix.shape)
-    # print(matrix[0])
-    # print(len(matrix))
 
     cos_distance_arr = []
     for i in range(1, len(matrix)):
